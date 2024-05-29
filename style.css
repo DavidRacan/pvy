@@ -1,0 +1,21 @@
+body{
+    background-color: grey;
+}
+
+#okno {
+    width: 100%;
+    height: 200px;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white; 
+    color: black; 
+  }
+  
+
+  @media (prefers-color-scheme: dark) {
+    #okno {
+      background-color: black;
+      color: white; 
+    }
+  }
